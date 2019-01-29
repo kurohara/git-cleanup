@@ -12,7 +12,7 @@ repository A -> A' + A''
 4. remove files from each repository with history.
 
 ```
-   $ cd to-where-edit-file-list
+   $ cd to-where-git-local-repository-created from A.
    $ ../git-cleanup/list.sh
    edit delete.list 
    $ ../git-cleanup/removehist.sh
